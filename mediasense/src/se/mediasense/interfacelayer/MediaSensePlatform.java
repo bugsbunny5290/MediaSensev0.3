@@ -124,7 +124,8 @@ public final class MediaSensePlatform
     public boolean init()
     {
 
-        return init("130.237.161.185", 2000, 8000); //the ip address should be changed to local ip for local bootstrapping
+        return init("local ip e.g. 192.168.0.1", 2000, 8000); //the ip address should be changed to local ip for local bootstrapping
+		//In order to use the MediaSense's bootstrap ip,contact us!
 
     }
     /**
@@ -136,7 +137,8 @@ public final class MediaSensePlatform
        public boolean init(int localport)
     {
 
-           return init("130.237.161.185", 2000, localport); //the ip address should be changed to local ip for local bootstrapping
+            return init("local ip e.g. 192.168.0.1", 2000, localport); //the ip address should be changed to local ip for local bootstrapping
+		   //In order to use the MediaSense's bootstrap ip,contact us!
 
     } 
     /**
